@@ -26,14 +26,20 @@ console.log(usermail)
 
 const names = [ "marco", "luigi", "nicola", "alex"]
 
-for(let i = 0; i < usermail.length; ++i){
-    console.log(usermail[i])
-
 const message_ok = "ok abilitato"
 console.log(message_ok)
 
 const message_ko = "ko non abilitato"
 console.log(message_ko)
+
+for(let i = 0; i < usermail.length; ++i){
+    console.log(usermail[i])
+    const alluser = usermail[i]
+
+    if(alluser == usermail){
+        message_ok
+    }else(alluser != usermail)
+    message_ok
+
 }
 
-const alluser = usermail[i]
