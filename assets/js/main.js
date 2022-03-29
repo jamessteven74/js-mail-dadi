@@ -17,6 +17,7 @@ Se dobbiamo confrontare qualcosa che "cosa" ci serve?
 
 //chiedo all'utente la sua mail tramite un propmt.
 //creo una lista di utenti/nomi
+// verifico se è presente nelle lista il nominativo
 //stampo messaggio.
 
 
@@ -34,3 +35,5 @@ console.log(message_ok)
 const message_ko = "ko non abilitato"
 console.log(message_ko)
 }
+
+const alluser = usermail[i]
