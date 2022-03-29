@@ -24,17 +24,12 @@ const usermail = prompt("inserisci la tua mail")
 console.log(usermail)
 
 const names = [ "marco", "luigi", "nicola", "alex"]
-console.log(names)
+
+for(let i = 0; i < usermail.length; ++i){
+    console.log([i])
 
 const messageok = "ok abilitato"
 console.log(messageok)
 
-const messageko = "ko non abilitato"
+const messageko = "ko non abilitato";
 console.log(messageko)
-
-    
-    if(usermail === names){
-       
-        
-    }else (usermail != names)
-           
