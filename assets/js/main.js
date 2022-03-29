@@ -35,14 +35,15 @@ console.log(message_ok)
 const message_ko = "ko non abilitato"
 console.log(message_ko)
 
+
 for(let i = 0; i < names.length; ++i){
     console.log(names[i])
     const name = names[i]
 
-    if(name == usermail){
+    if(name === usermail){
         message_ok = "ok abilitato"
+        let name = false
     }   
-}
 
 
         
@@ -50,4 +51,4 @@ for(let i = 0; i < names.length; ++i){
 
     
 
-
+}
