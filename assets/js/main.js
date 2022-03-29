@@ -22,3 +22,18 @@ Se dobbiamo confrontare qualcosa che "cosa" ci serve?
 
 const usermail = prompt("inserisci la tua mail")
 console.log(usermail)
+
+const names = [ "marco", "luigi", "nicola", "alex"]
+console.log(names)
+
+const messageok = ("ok abilitato")
+console.log(messageok)
+
+const messageko = ("ko non abilitato")
+
+console.log(messageok)
+    
+    if(usermail === names){
+        messageok
+    }else (usermail != names)
+            messageko
