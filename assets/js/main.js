@@ -17,7 +17,10 @@ Se dobbiamo confrontare qualcosa che "cosa" ci serve?
 
 //chiedo all'utente la sua mail tramite un propmt.
 //creo una lista di utenti/nomi
-// verifico se è presente nelle lista il nominativo
+// verifico se è presente nelle lista il nominativo.
+//se è presente fornisco messaggio ok.
+// se non è presente fornisco messaggio di ko
+//aggiungere variabile sentinella
 //stampo messaggio.
 
 
@@ -32,14 +35,17 @@ console.log(message_ok)
 const message_ko = "ko non abilitato"
 console.log(message_ko)
 
-for(let i = 0; i < usermail.length; ++i){
-    console.log(usermail[i])
-    const alluser = usermail[i]
+for(let i = 0; i < names.length; ++i){
+    console.log(names[i])
+    const name = names[i]
 
-    if(alluser == usermail){
+    if(name == usermail){
         message_ok
-    }else(alluser != usermail)
-    message_ok
-
+    }   
 }
+        
+    
+
+    
+
 
