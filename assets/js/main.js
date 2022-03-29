@@ -26,14 +26,15 @@ console.log(usermail)
 const names = [ "marco", "luigi", "nicola", "alex"]
 console.log(names)
 
-const messageok = ("ok abilitato")
+const messageok = "ok abilitato"
 console.log(messageok)
 
-const messageko = ("ko non abilitato")
+const messageko = "ko non abilitato"
+console.log(messageko)
 
-console.log(messageok)
     
     if(usermail === names){
-        messageok
+       
+        
     }else (usermail != names)
-            messageko
+           
