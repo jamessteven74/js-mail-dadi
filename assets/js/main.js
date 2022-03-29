@@ -26,10 +26,10 @@ console.log(usermail)
 const names = [ "marco", "luigi", "nicola", "alex"]
 
 for(let i = 0; i < usermail.length; ++i){
-    console.log([i])
+    console.log(usermail[i])
 
 const messageok = "ok abilitato"
 console.log(messageok)
 
-const messageko = "ko non abilitato";
+const messageko = "ko non abilitato"
 console.log(messageko)
